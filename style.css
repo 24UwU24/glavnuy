@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300&family=Bowlby+One+SC&family=Caveat&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300&family=Bowlby+One+SC&family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bellota+Text:wght@300;400&family=Caveat&family=Gloria+Hallelujah&family=Josefin+Sans:wght@200&family=Mouse+Memoirs&family=Neucha&family=Pangolin&family=Quicksand&display=swap');
+body{
+    background-image:url(back5.jpg);
+}
+
+h1{
+    text-align: center;
+    font-size:40px;
+    font-family: Bowlby One SC;
+    color:white;
+}
+header{
+    background-image: url(back2.png);
+    height: auto;
+    width:auto;
+}
+nav{
+    background-image:url(background6.png);
+
+}
+.navi{
+    color:black;
+    margin:220px;
+    text-decoration:none;
+    font-size: 27px;
+    border: 2px solid white;
+    border-radius: 20%;
+    background: white;
+    opacity: 0.5;
+    font-family:Mouse Memoirs;
+}
+.navik{
+    color:black;
+    margin:220px;
+    text-decoration:none;
+    font-size: 27px;
+    border-radius: 20%;
+    background: red;
+    opacity:0.5;
+    font-family:Mouse Memoirs;
+}
+.navis{
+    color:black;
+    margin:220px;
+    text-decoration:none;
+    font-size: 27px;
+    border-radius: 20%;
+    background: white;
+    opacity: 0.5;
+    font-family:Mouse Memoirs;
+}
+a:visited{
+    color:darkgrey;
+
+}
+.navik:hover{
+    font-size: 29px;
+    transition:0.5s ease-out;
+    box-shadow: 8px 6px 20px 2px #FA5ADF;
+    color:black;
+    opacity:1;
+}
+.navis:hover{
+    font-size: 29px;
+    transition:0.5s ease-out;
+    box-shadow: 3px 2px 30px 2px gray;
+    color:#a700ff;
+    opacity: 1;
+}
+.navi:hover{
+    font-size:29px;
+    transition:0.5s ease-out;
+    box-shadow: 5px 5px 30px 2px blue;
+    color:#000000;
+    opacity:1;
+}
+h2{
+    text-align: center;
+    font-size:40px;
+    font-family: Bowlby One SC;
+    color:white;
+}
+h3{
+    text-align: center;
+ font-size:40px;
+    font-family: Russo One;
+    color:white;
+}
+.text{
+    font-family:Russo One;
+    color: white;
+}
+.buy{
+    color:#5A518F;
+}
+.free{
+    color:#42C74B;
+}
+.mans{
+    text-decoration: none;
+    color:#C8B3FF;
+
+}
+.mans:hover{
+    font-size: 20px;
+    transition: 0.5s ease-in;
+    text-decoration:underline;
+    color:#e2d8ff;
+}
+.EG{
+    color:darkgray;
+}
+.st{
+    color:#7982ff;
+}
+.stad{
+    color: #FF1F0F;
+}
+.ps{
+    color:#6DA2FF;
+}
+.xbx{
+    color:#2CDB3D;
+}
+.swi{
+    color: #FF8D70;
+}
+.hell{
+    color: rgba(255, 0, 0, 0.89);
+    text-decoration:none;
+}
+.dimi{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.kupli{
+  text-decoration: none;
+    color:rgba(0, 65, 242, 0.74);
+}
+.kupli:hover{
+    font-size: 20px;
+    transition: 0.5s ease-in;
+    text-decoration: underline;
+    Color:rgba(80, 127, 255, 0.74);
+}
+.dimi:hover{
+    font-size: 20px;
+    transition: 0.5s ease-in;
+    text-decoration: underline;
+    color:rgb(170, 170, 170);
+}
+.hell:hover{
+    font-size: 20px;
+    transition: 0.5s ease-in;
+    text-decoration: underline;
+    color: rgba(255, 94, 94, 0.89);
+}
+footer{
+    background-color:black;
+    height: 90px;
+}
+.creator{
+    font-size: 30px;
+    color:#9f4dff;
+    background:white ;
+    border-radius: 25%;
+    margin: 500px;
+    text-decoration: none;
+    opacity:0.5;
+    font-family:Mouse Memoirs;
+}
+.creator::before{
+    position: absolute;
+    left:580px;
+    top:1260px;
+    content: url(before1.png);
+        opacity:0;
+
+}
+
+.creator:hover::before{
+    opacity: 1;
+    transition: 0.9s ease-out;
+}
+.creator:hover{
+    font-size: 33px;
+    box-shadow: 7px 6px 30px 0px ;
+    transform: translateX(20px);
+    transition:0.5s ease-in;
+    color:#ff00ff;
+    text-decoration: underline;
+    opacity:1;
+}
+.helper{
+    font-size: 35px;
+    color:black;
+    background:#ffffff;
+    border-radius: 25%;
+    text-decoration: none;
+    opacity:0.5;
+    font-family:Mouse Memoirs;
+
+}
+.helper:hover{
+    transition:0.5s ease-in;
+    color:#c400ff;
+    text-decoration: underline;
+    opacity:1;
+    font-size:37px;
+    box-shadow: 2px 2px 20px 2px #d15df4;
+}
+.helper::before{
+    content: url(before2.png);
+    opacity: 0;
+    position: absolute;
+    right:490px;
+    top:1270px;
+}
+.helper:hover::before{
+    opacity: 1;
+    transition: 0.5s ease-out;
+}
+.khi{
+    color:white;
+    font-family: Russo One;
+    font-size: 20px;
+}
+.preloader {
+  position: fixed;
+  overflow: hidden;
+  background: black;
+  z-index: 1001;
+}
+
+.preloader__image {
+  position: relative;
+  top: 100%;
+  width: 1600px;
+  height:1200px;
+  margin-top: -32px;
+  margin-left: -32px;
+  background: url('loader.gif') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
+}
+
+.loaded_hiding .preloader {
+  transition: 7s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
